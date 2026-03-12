@@ -4,6 +4,11 @@
     "outDir": "dist",
     "strictNullChecks": true
   },
-  "include": ["src"],
+"include": [
+    "src/**/*.ts", 
+    "src/**/*.tsx", 
+    "*.ts", 
+    "node_modules/@storybook" 
+  ],
   "exclude": ["node_modules", "dist"]
 }
